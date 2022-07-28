@@ -3,18 +3,7 @@ package com.zipcodewilmington.singlylinkedlist;
 /**
  * Created by leon on 1/10/18.
  */
-public class SinglyLinkedList<T> {
-    static final class Node<T> {
-        T item;
-        Node<T> next;
-
-        public Node(T item) {
-            this.item = item;
-            this.next = null;
-        }
-        public Node() {
-        }
-    }
+public class SinglyLinkedList<T extends Comparable<T>> {
 
     private Node<T> head;
 
@@ -24,6 +13,10 @@ public class SinglyLinkedList<T> {
 
     public Node<T> getListHead() {
         return head;
+    }
+
+    public void setListHead(Node<T> node) {
+        head = node;
     }
 
     public void add(T item) {
@@ -131,6 +124,8 @@ public class SinglyLinkedList<T> {
 
     /** Merge sort **/
     public void sort() {
+        LinkedListMergeSort<T> sorter = new LinkedListMergeSort<>();
+        setListHead(sorter.mergeSort(head));
     }
 
     public void reverse() {

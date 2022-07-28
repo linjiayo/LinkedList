@@ -5,21 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f0c6f35-1ac5-49ea-b41e-20445c07c5c6" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_9_0_RC1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_9_0_RC1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_9_0_RC1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_9_0_RC1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_9_0_RC1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_9_0_RC1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zipcodewilmington/singlylinkedlist/LinkedListMergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zipcodewilmington/singlylinkedlist/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zipcodewilmington/singlylinkedlist/MergeSortTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/zipcodewilmington/singlylinkedlist/SinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zipcodewilmington/singlylinkedlist/SinglyLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/zipcodewilmington/singlylinkedlist/SinglyLinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zipcodewilmington/singlylinkedlist/SinglyLinkedListTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +19,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -170,7 +161,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_opened_file_path": "C:/Users/lingain/Desktop/Projects/LinkedList"
+    "last_opened_file_path": "C:/Users/lingain/Desktop/Projects/Maven.DuplicateDeleter"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -181,7 +172,7 @@
       <recent name="com.zipcodewilmington.singlylinkedlist" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SinglyLinkedListTest.testReverse">
+  <component name="RunManager" selected="JUnit.com.zipcodewilmington.singlylinkedlist in singlylinkedlist">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -236,7 +227,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SinglyLinkedListTest.testContains" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MergeSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="singlylinkedlist" />
       <extension name="coverage">
         <pattern>
@@ -245,8 +236,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.zipcodewilmington.singlylinkedlist" />
-      <option name="MAIN_CLASS_NAME" value="com.zipcodewilmington.singlylinkedlist.SinglyLinkedListTest" />
-      <option name="METHOD_NAME" value="testContains" />
+      <option name="MAIN_CLASS_NAME" value="com.zipcodewilmington.singlylinkedlist.MergeSortTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MergeSortTest.mergeSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="singlylinkedlist" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zipcodewilmington.singlylinkedlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zipcodewilmington.singlylinkedlist" />
+      <option name="MAIN_CLASS_NAME" value="com.zipcodewilmington.singlylinkedlist.MergeSortTest" />
+      <option name="METHOD_NAME" value="mergeSort" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -264,40 +271,6 @@
       <option name="PACKAGE_NAME" value="com.zipcodewilmington.singlylinkedlist" />
       <option name="MAIN_CLASS_NAME" value="com.zipcodewilmington.singlylinkedlist.SinglyLinkedListTest" />
       <option name="METHOD_NAME" value="testDeepCopy" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SinglyLinkedListTest.testRemoveLast" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="singlylinkedlist" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zipcodewilmington.singlylinkedlist.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.zipcodewilmington.singlylinkedlist" />
-      <option name="MAIN_CLASS_NAME" value="com.zipcodewilmington.singlylinkedlist.SinglyLinkedListTest" />
-      <option name="METHOD_NAME" value="testRemoveLast" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SinglyLinkedListTest.testRemoveMiddle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="singlylinkedlist" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zipcodewilmington.singlylinkedlist.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.zipcodewilmington.singlylinkedlist" />
-      <option name="MAIN_CLASS_NAME" value="com.zipcodewilmington.singlylinkedlist.SinglyLinkedListTest" />
-      <option name="METHOD_NAME" value="testRemoveMiddle" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -323,6 +296,21 @@
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.zipcodewilmington.singlylinkedlist in singlylinkedlist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="singlylinkedlist" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zipcodewilmington.singlylinkedlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zipcodewilmington.singlylinkedlist" />
+      <option name="TEST_OBJECT" value="package" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -354,11 +342,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.com.zipcodewilmington.singlylinkedlist in singlylinkedlist" />
+        <item itemvalue="JUnit.MergeSortTest.mergeSort" />
+        <item itemvalue="JUnit.MergeSortTest" />
         <item itemvalue="JUnit.SinglyLinkedListTest.testReverse" />
         <item itemvalue="JUnit.SinglyLinkedListTest.testDeepCopy" />
-        <item itemvalue="JUnit.SinglyLinkedListTest.testContains" />
-        <item itemvalue="JUnit.SinglyLinkedListTest.testRemoveLast" />
-        <item itemvalue="JUnit.SinglyLinkedListTest.testRemoveMiddle" />
       </list>
     </recent_temporary>
   </component>
@@ -415,21 +403,6 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/com/zipcodewilmington/singlylinkedlist/SinglyLinkedList.java</url>
-          <line>135</line>
-          <properties class="com.zipcodewilmington.singlylinkedlist.SinglyLinkedList" method="reverse">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/singlylinkedlist$SinglyLinkedListTest_testReverse.ic" NAME="SinglyLinkedListTest.testReverse Coverage Results" MODIFIED="1658632853774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
